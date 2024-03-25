@@ -1,0 +1,11 @@
+{
+    "name": "bmatusiak-FreeeeStoooore",
+    "version_number": "1.0.0",
+    "authorName": "bmatusiak",
+    "websiteUrl": "https://github.com/bmatusiak/FreeeeStoooore",
+    "displayName": "FreeeeStoooore",
+    "description": "Makes All Terminal Purchaces Free",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
