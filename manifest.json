@@ -3,7 +3,7 @@
     "version_number": "1.0.1",
     "website_url": "https://github.com/bmatusiak/FreeeeStoooore",
     "author": "bmatusiak",
-    "description": "Makes All Terminal Purchaces Free",
+    "description": "Makes All Terminal Purchases Free",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
     ]

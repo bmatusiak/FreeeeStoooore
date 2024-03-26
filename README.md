@@ -2,7 +2,7 @@ FreeeeStoooore
 --------------
 
 
-Makes All Terminal Purchaces Free
+Makes All Terminal Purchases Free
 
 
 
