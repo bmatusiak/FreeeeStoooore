@@ -14,7 +14,7 @@ namespace FreeeeStoooore
         // Mod Details
         private const string modGUID = "bmatusiask.FreeeeStoooore";
         private const string modName = "FreeeeStoooore";
-        private const string modVersion = "1.0.0.0";
+        private const string modVersion = "1.0.1.0";
 
         private readonly Harmony harmony = new Harmony(modGUID);
         public static FreeeeStoooorePlugin Instance { get; private set; }
@@ -25,16 +25,16 @@ namespace FreeeeStoooore
             if (Instance == null)
                 Instance = this;
 
-            Log = BepInEx.Logging.Logger.CreateLogSource("UnknownMod");
-            Log.LogInfo("(UnknownMod): Patching");
+            Log = BepInEx.Logging.Logger.CreateLogSource("FreeeeStoooore");
+            Log.LogInfo("Patching");
 
-            harmony.PatchAll(typeof(MoonPricePatch));
+            harmony.PatchAll(typeof(FreeeeStoooorePatch));
         }
 
     }
 
     [HarmonyPatch(typeof(Terminal))]
-    internal class MoonPricePatch
+    internal class FreeeeStoooorePatch
     {
         private static Terminal terminal = null;
         private static int totalCostOfItems = -5;
